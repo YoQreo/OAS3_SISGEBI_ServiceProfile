@@ -1,0 +1,53 @@
+#RESPONSE SCHEME
+  # Este esquema Contiene la estructura de una respuesta
+    # SUCCESSFUL RESPONSE -> Contiene la estructura de una respuesta de exito
+    SuccessfulResponse:
+      type: object
+      required:
+        - data
+        - code
+      properties:
+        data: 
+          type: object
+        code: 
+          type: integer
+
+    # CreatedResponse para Profile: Esquema de la respuesta de exito CreatedResponse el cual contiene un ejemplo
+    CreatedProfileResponse:
+      type: object
+      required:
+        - data
+        - code
+      properties:
+        data:           
+          $ref: ../models/models.yml#/Profile
+        code: 
+          type: integer   
+          example: 201  
+          
+    ShowProfileResponse:
+      type: object
+      required:
+        - data
+        - code
+      properties: 
+        data:
+          $ref: ../models/models.yml#/Profile
+        code:
+          type: integer
+          example: 200
+
+    ShowProfilesResponse:
+      type: object
+      required:
+        - data
+        - code
+      properties: 
+        data:
+          $ref: ../models/models.yml#/Profile
+        code:
+          type: integer
+          example: 200
+
+      
+

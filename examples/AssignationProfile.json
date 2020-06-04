@@ -1,0 +1,22 @@
+
+{
+  "data":{
+            "modules": [
+              {
+                "id" : 1,
+                "permisssion":"{create:true,delete:false}"
+              },
+              {
+                "id" : 2,
+                "permisssion":"{create:true,show:false}"
+              },
+              {
+                "id": 3,
+                "permisssion":"{assignate:true,show:true}"
+              }
+
+            ]
+
+         },
+  "code": 200
+}

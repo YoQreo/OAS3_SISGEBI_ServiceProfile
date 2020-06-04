@@ -1,0 +1,27 @@
+ # SCHEMA MODEL
+  # Este tipo de esquema representa a la entidad del modelo en nuestra aplicación
+  # Por ejemplo en el servicio: ServiceProfile, tenemos 1 modelo 
+    # Profile: Es el esquema del modelo Profile, el cual contiene sus atributos y un ejemplo  
+    Profile:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string          
+        isActive:
+          type: boolean                
+        created_at: 
+          type: string       
+        updated_at:
+          type: string
+      example:
+        id: 1
+        name: "Admin"       
+        isActive: false
+        created_at: "2020-04-16 07:35:08"
+        updated_at: "2020-04-16 07:35:08"
+    
+
+     
+      
