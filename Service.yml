@@ -44,9 +44,7 @@ paths:
               $ref: components/schemas/payloads/payload.yml#/ProfilePayload
       responses:      
         '201':
-          $ref: components/responses/responses.yml#/CreatedProfile         
-        '404':          
-          $ref: components/responses/responses.yml#/NotFound 
+          $ref: components/responses/responses.yml#/CreatedProfile
         '405':
           $ref: components/responses/responses.yml#/MethodNotAllowed           
         '401':
@@ -54,7 +52,7 @@ paths:
         '422':
           $ref: components/responses/responses.yml#/UnprocessableEntity 
 
-  /Profiles/{id}:
+  /profiles/{id}:
     get:
       tags:
         - Profile
@@ -113,7 +111,7 @@ paths:
         '401':
           $ref: components/responses/responses.yml#/Unauthenticated 
 
-  /profile/{id}/information:
+  /profiles/{id}/information:
     get:
       tags:
         - Profile
@@ -130,7 +128,7 @@ paths:
           $ref: components/responses/responses.yml#/MethodNotAllowed           
         '401':
           $ref: components/responses/responses.yml#/Unauthenticated 
-  /profile/{id}/assignation:            
+  /profiles/{id}/assignation:            
     post:
       tags:
         - Profile    

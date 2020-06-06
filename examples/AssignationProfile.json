@@ -4,15 +4,15 @@
             "modules": [
               {
                 "id" : 1,
-                "permisssion":"{create:true,delete:false}"
+                "permissions":"{create:true,delete:false}"
               },
               {
                 "id" : 2,
-                "permisssion":"{create:true,show:false}"
+                "permissions":"{create:true,show:false}"
               },
               {
                 "id": 3,
-                "permisssion":"{assignate:true,show:true}"
+                "permissions":"{assignate:true,show:true}"
               }
 
             ]

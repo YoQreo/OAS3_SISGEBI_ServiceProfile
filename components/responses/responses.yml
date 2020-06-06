@@ -53,7 +53,7 @@
             $ref: ../../examples/Profiles.json
     
     ShowProfile:
-      description: Show one Profile 
+      description: Show one profile 
       content: 
         application/json:
           schema:
