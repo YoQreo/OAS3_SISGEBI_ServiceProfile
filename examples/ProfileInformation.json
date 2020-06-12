@@ -4,14 +4,17 @@
                 "name": "Adminitrador",
                 "modules": [
                 {
+                    "id":1,
                     "name": "Users",
                     "permissions":"{\"Ver\":true},{\"Crear\":false},{\"Editar\":false},{\"Eliminar\":false}"
                 },
                 {
+                    "id":2,
                     "name": "Profile",
                     "permissions":"{\"Ver\":true},{\"Crear\":false}"
                 },
                 {
+                    "id":3,
                     "name": "Matricula",
                     "permissions":"{\"Asignar\":true},{\"Retirar\":false}"
                 }
