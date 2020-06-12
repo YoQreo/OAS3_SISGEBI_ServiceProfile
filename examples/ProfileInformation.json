@@ -5,15 +5,15 @@
                 "modules": [
                 {
                     "name": "Users",
-                    "permissions":"{edit:true,show:false}"
+                    "permissions":"{\"Ver\":true},{\"Crear\":false},{\"Editar\":false},{\"Eliminar\":false}"
                 },
                 {
                     "name": "Profile",
-                    "permissions":"{create:true,delete:false}"
+                    "permissions":"{\"Ver\":true},{\"Crear\":false}"
                 },
                 {
                     "name": "Matricula",
-                    "permissions":"{assignate:true,remove:true}"
+                    "permissions":"{\"Asignar\":true},{\"Retirar\":false}"
                 }
             
                 ],

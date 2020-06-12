@@ -2,7 +2,8 @@
 {
   "data":{
             "module_id": 1,
-            "permissions":"{create:true,delete:false}"
+            "permissions":"[{\"Ver\":true},{\"Crear\":false},{\"Editar\":false},{\"Eliminar\":false}]"
+
          },
   "code": 200
 }
