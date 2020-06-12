@@ -128,14 +128,14 @@ paths:
           $ref: components/responses/responses.yml#/MethodNotAllowed           
         '401':
           $ref: components/responses/responses.yml#/Unauthenticated 
-  /profiles/{id}/assignation:            
+  /profiles/{id}/assign:            
     post:
       tags:
         - Profile    
       summary: Assignation modules and its permissions to an profile
       operationId: assignationPermissions
       requestBody:
-        description: Module with field permission with values
+        description: Id module and its permission with values
         content:
           application/json:
             schema:

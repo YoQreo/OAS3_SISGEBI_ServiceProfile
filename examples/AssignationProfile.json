@@ -1,22 +1,8 @@
 
 {
   "data":{
-            "modules": [
-              {
-                "id" : 1,
-                "permissions":"{create:true,delete:false}"
-              },
-              {
-                "id" : 2,
-                "permissions":"{create:true,show:false}"
-              },
-              {
-                "id": 3,
-                "permissions":"{assignate:true,show:true}"
-              }
-
-            ]
-
+            "module_id": 1,
+            "permissions":"{create:true,delete:false}"
          },
   "code": 200
 }
